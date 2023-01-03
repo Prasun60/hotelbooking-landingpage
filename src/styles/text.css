@@ -1,0 +1,26 @@
+.details{
+    width: 80%;
+    top:0;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    margin: auto;
+}
+.text{
+    width: 50%;
+    float: left;
+    margin-left: -400px;
+    font-family: sans-serif;
+}
+.col1{
+    width: 50%;
+    font: left;
+}
+.col2{
+    width: 40%;
+    float: right;
+    margin-top: -92px;
+}
+.point{
+    height: 200px;
+}

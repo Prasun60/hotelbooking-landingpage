@@ -1,0 +1,27 @@
+.pic{
+    padding: 2rem 2rem;
+  text-align: center;
+}
+.bigimg{
+    float: left; 
+    width: 40%;
+    padding: 50px;
+    left: 250px;
+    position: relative;
+    height: 100%;
+}
+.smimg{
+    display: flex;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+.pListImg{
+    padding: 5px;
+    height: 190px;
+}
+.bigimgs{
+    height: 390px;
+    margin-top: -25px;
+}
+
