@@ -1,32 +1,17 @@
 import React, { useState } from 'react'
 import "../styles/booking.css"
-import { Dayjs } from 'dayjs';
 import TextField from '@mui/material/TextField';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
-import Modal from "react-modal";
-import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
+
 import { Button } from '@mui/material';
 import {
-    faBed,
-    faCalendarDays,
-    faCar,
     faPerson,
-    faPlane,
-    faTaxi,
   } from "@fortawesome/free-solid-svg-icons";
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Booking() {
     const [value, setValue] = useState(null);
-    const [modalIsOpen, setIsOpen] = useState(false);
-    const [Acount, setACount] = useState(0);
-    const [Ccount, setCCount] = useState(0);
-    const [Rcount, setRCount] = useState(0);
 
     const [openOptions, setOpenOptions] = useState(false);
     const [options, setOptions] = useState({
